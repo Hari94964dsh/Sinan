@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Website</title>
+    <style>
+        /* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0046ad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+/* Ordered list for teams */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+ol li {
+    font-size: 18px;
+    color: #444;
+    padding: 5px 0;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #0046ad;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Image gallery */
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.images img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Football World!</h1>
+        <p>Your go-to website for football updates, teams, and matches.</p>
+    </header>
+
+    <section id="top-teams">
+        <h2>Top 5 Football Teams</h2>
+        <ol>
+            <li>FC Barcelona</li>
+            <li>Real Madrid</li>
+            <li>Manchester United</li>
+            <li>Bayern Munich</li>
+            <li>Liverpool</li>
+        </ol>
+    </section>
+
+    <section id="team-stats">
+        <h2>Football Team Stats</h2>
+        <table>
+            <tr>
+                <th>Team</th>
+                <th>Founded</th>
+                <th>Stadium</th>
+                <th>Trophies</th>
+            </tr>
+            <tr>
+                <td>FC Barcelona</td>
+                <td>1899</td>
+                <td>Camp Nou</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td>Real Madrid</td>
+                <td>1902</td>
+                <td>Santiago Bernabéu</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>Manchester United</td>
+                <td>1878</td>
+                <td>Old Trafford</td>
+                <td>68</td>
+            </tr>
+            <tr>
+                <td>Bayern Munich</td>
+                <td>1900</td>
+                <td>Allianz Arena</td>
+                <td>77</td>
+            </tr>
+            <tr>
+                <td>Liverpool</td>
+                <td>1892</td>
+                <td>Anfield</td>
+                <td>59</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="image-gallery">
+        <h2>Famous Football Moments</h2>
+        <div class="images">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhEjaaR-Lk7iYurCDSssoFkyeFe4TjxMpy1g&s" alt="Football moment 1">
+            <img src="https://i.ytimg.com/vi/phCws4VKPyY/maxresdefault.jpg" alt="Football moment 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnDvyAxkuTLeXTjrQmlSkVnftRiPIuFiQfQg&s" alt="Football moment 3">
+        </div>
+    </section>
+
+   <address>
+    Created by sinan fullstack <br>
+    kozhikkod,kerala
+   </address>
+</body>
+</html>
